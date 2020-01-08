@@ -17,10 +17,10 @@ json-version-inc -j [JSON_FILE_PATH] -p [VERSION_PROPERTY_PATH] -t [TYPE: MAJOR 
 ## Example
 ```
 json-version-inc -j ./app.json -p expo.ios.buildNumber -t PATCH -o xml
-> to produce xml output
+> to produce xml output like this: <newVersion>1.0.7</newVersion>
 
 json-version-inc -j ./app.json -p expo.ios.buildNumber -t PATCH -o json
-> to produce json output
+> to produce json output like this: {"newVersion":"1.0.8"}
 
 ```
 
