@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Test ",
+    "description": "Test  Mobile App",
+    "privacy": "unlisted",
+    "sdkVersion": "34.0.0",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "assets/icons/app-icon.png",
+    "loading": {
+      "icon": "assets/icons/app-icon.png",
+      "hideExponentText": false
+    },
+    "splash": {
+      "image": "image/MOBILE_ICON_1024x1024.png"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.test.mobile.MembersApp",
+       "buildNumber":"1.0.5" 
+    },
+    "android": {
+      "package": "org.test.mobile.el.MembersApp",
+      "versionCode":"1.0.5"
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
