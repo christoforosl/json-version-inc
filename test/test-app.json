@@ -4,7 +4,7 @@
     "description": "Test  Mobile App",
     "privacy": "unlisted",
     "sdkVersion": "34.0.0",
-    "version": "1.0.5",
+    "version": "1.0.12",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "assets/icons/app-icon.png",
@@ -26,11 +26,11 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "org.test.mobile.MembersApp",
-       "buildNumber":"1.0.5" 
+      "buildNumber": "1.0.5"
     },
     "android": {
       "package": "org.test.mobile.el.MembersApp",
-      "versionCode":"1.0.5"
+      "versionCode": "1.0.5"
     },
     "platforms": [
       "android",
