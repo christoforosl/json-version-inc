@@ -11,12 +11,17 @@ $ npm install -g json-version-inc
 
 ## Usage
 ```
-json-version-inc -j [JSON_FILE_PATH] -p [VERSION_PROPERTY_PATH] -t [TYPE: MAJOR | MINOR | PATCH]
+json-version-inc -j [JSON_FILE_PATH] -p [VERSION_PROPERTY_PATH] -t [TYPE: MAJOR | MINOR | PATCH] -o [xml|json|text]
 ```
 
 ## Example
 ```
-json-version-inc -j ./app.json -p expo.ios.buildNumber -t PATCH
+json-version-inc -j ./app.json -p expo.ios.buildNumber -t PATCH -o xml
+> to produce xml output like this: <newVersion>1.0.7</newVersion>
+
+json-version-inc -j ./app.json -p expo.ios.buildNumber -t PATCH -o json
+> to produce json output like this: {"newVersion":"1.0.8"}
+
 ```
 
 ## License
